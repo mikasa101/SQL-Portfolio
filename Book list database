@@ -1,0 +1,14 @@
+create table books ( id INTEGER primary key,name TEXT, rating INTEGER);
+
+insert into books 
+VALUES
+( 1, 'history',3),
+( 2, 'mystery',2),
+(3, 'art books',1)
+;
+SELECT * FROM books;
+
+
+
+display the database 
+**Order by book rating 
